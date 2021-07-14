@@ -15,10 +15,16 @@
     
     }
     .banner-headline h1{
-        font-size: 45px;
+        font-size: 35px;
         font-weight: 700;
-        line-height: 80px;
+        line-height: 50px;
         color: white;
+    }
+    .box1 h1 {
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 700;
+        color: #0A0826;
     }
 /* end header section  */
 /* start gallery section  */
@@ -39,13 +45,22 @@ input{
     display: flex;
     margin-top: 30px;
     height: 300px;
+    text-align: center;
 }
 /* end email section  */
+/* start Highlights section  */
+.Highlights {
+    margin-top: 50px;
+}
+/* end highlights section  */
 /* start footer section  */
 .foter_img{ 
     margin: 0 auto;
     width: 300px;
     text-align: center;
+}
+footer {
+    margin-top: 30px;
 }
 /* end footer section       */
 
@@ -70,6 +85,7 @@ input{
     .banner-headline h1{
         font-size: 55px;
     }
+
 /* end header section  */
 /* start gallery section  */
 .container2{
@@ -85,7 +101,7 @@ input{
     display: flex;
     margin-top: 30px;
     height: 400px;
-    
+    text-align: center;
 }
 /* end email section  */
 /* start highlight section  */
@@ -115,6 +131,9 @@ input{
     margin: 0 auto;
     width: 300px;
     text-align: center;
+}
+footer {
+    margin-top: 50px;
 }
 /* end footer section       */
     
