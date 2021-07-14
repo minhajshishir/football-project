@@ -1,0 +1,205 @@
+/* font-family: 'Niconne', cursive; */
+/* general setting */
+h1{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* start all button  */
+.btn{
+    margin-bottom: 25px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+}
+.fa-sign-in-alt{
+    margin-right:10px;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.fa-arrow-left{
+    margin-right: 8px;
+}
+.btn1{
+    display: inline-block;
+    margin-top:28px;
+}
+/* general setting */
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #f2f2f2;
+    margin:0;
+    padding:0;
+}
+/* start header section  */
+header{
+    background-color: #2D25A0;
+    padding-top: 42px;
+}
+.container{
+    width:90%;
+    margin: 0 auto;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+
+} 
+.container-nav a{
+    color: white;
+    margin: 0 36px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container-nav a:first-child{
+    margin-left: 0px;
+}
+/* End header section  */
+/* start banner section  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    height: 709px;
+    align-items: center;
+   
+}
+.banner-headline h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+}
+.banner-img img{
+    width: 100%;
+} 
+.banner-img img{
+    transition: .6s;
+}
+.banner-img img:hover{
+    transform: scale(1.1);
+
+}
+
+/* end banner end  */
+/* gallery section start  */
+.gallery{
+    margin-top: 86px;
+
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.box{
+    background-color: white;
+    margin-bottom: 27px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.box img{
+    width: 100%;
+}
+.box h2{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #18191F;
+}
+.box p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* gallery section end  */
+/* start Email Section  */
+.email{
+    display: flex;
+    margin-top: 30px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.815),rgba(0, 0, 0, 0.815)),url(../images/stadium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input{
+    padding: 0 10px;
+    width: 300px;
+    height: 40px;
+    border-color:#E02C6D;
+    background: transparent;
+    color: white;
+}
+input:focus{
+    border-color: #E02C6D; 
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+/* end Email Section  */
+/* Highlights section start  */
+.Highlights{
+    margin-top: 105px;
+}
+.high{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.box1 p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+    color: #6C6C6C;
+    font-size: 16px;
+    line-height: 28px;
+}
+.box1 img{
+    width: 100%;
+}
+/* Highlights section end  */
+/* footer start  */
+footer{
+    margin-top: 158px;
+}
+.foter_img{ 
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+.foter_img img{
+    margin: 0 auto;
+    width: 100%;
+}
+.main_content{
+    margin: 0 auto;
+    text-align: center;
+}
+.ftr a{
+    margin: 0 10px;
+    font-size: 20px;
+    color: #E02C6D;
+}
+.ftr a i{
+    transition: .4s;
+}
+.ftr a i:hover{
+    transform: rotate(360deg);
+}
+.copyright{
+    color: #0A0826;
+}
