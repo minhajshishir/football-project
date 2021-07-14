@@ -13,6 +13,12 @@ a{
     padding: 10px 24px;
     background-color: #E02C6D;
     color: white;
+    transition: .5s;
+}
+.btn:hover{
+    background: transparent;
+    border: 1px solid #E02C6D;
+    color: black;
 }
 .fa-sign-in-alt{
     margin-right:10px;
